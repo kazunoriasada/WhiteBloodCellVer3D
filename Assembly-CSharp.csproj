@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1DC01F73-9343-606A-DEED-0A35260B0B7F}</ProjectGuid>
+    <ProjectGuid>{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,68 +55,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\Examples\Basics.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\Examples\Sequences.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Common\CameraAspectFitter.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\Enemy.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\EnemyAttack.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\Laser.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\Mob.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\Player.cs" />
-     <Compile Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Scripts\Main\SceneController.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Test.cs" />
-     <Compile Include="Assets\test_8\Ball.cs" />
-     <Compile Include="Assets\test_8\Ball2D.cs" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\readme.txt" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\DOTween50.xml" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\DOTween43.xml" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Demigiant\DOTween\DOTween46.xml" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
-     <None Include="Assets\gamealgorithm-hippari-action-for_algorithm16\Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <Compile Include="Assets\WhiteBloodCell.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/asadakazunori/Unity/Test/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -294,18 +259,6 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Assets/gamealgorithm-hippari-action-for_algorithm16/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Assets/gamealgorithm-hippari-action-for_algorithm16/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Assets/gamealgorithm-hippari-action-for_algorithm16/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="DOTween46">
- <HintPath>/Users/asadakazunori/ClimbCloud/WorkingWhiteBloodCell/Assets/gamealgorithm-hippari-action-for_algorithm16/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
